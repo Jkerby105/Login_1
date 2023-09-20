@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Bad Script", cursive;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.container {
+  max-width: 800px;
+  width: 80%;
+  height: 400px;
+  margin: 200px auto;
+  box-shadow: 0px 0px 10px 1px;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.ll {
+  height: 400px;
+  background: url("img/life4.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.s1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.c1 {
+  text-transform: capitalize;
+  font-size: 5.3em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  font-size: 2.2em;
+}
+
+.input1 {
+  margin-bottom: 1em;
+}
+
+.input2 {
+  margin-bottom: 1em;
+}
+
+.inputss {
+  border: 1px solid lightgoldenrodyellow;
+  color: lightskyblue;
+  width: 50%;
+  padding: 0.2em;
+  margin-left: 0.4em;
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+.ss {
+  width: 100;
+  margin: 0 auto;
+  padding: 0px 1.1em;
+  background-color: whitesmoke;
+  border-radius: 1.1em;
+}
+
+footer {
+  margin-top: 0.6em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+@media(max-width: 700px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+.ll{
+    height: 329px;
+}
+
+  .container {
+    max-width: 800px;
+    width: 80%;
+    height: 600px;
+    margin: 200px auto;
+    box-shadow: 0px 0px 10px 1px;
+  }
+  
+}
